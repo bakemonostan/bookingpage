@@ -52,6 +52,13 @@
     </main>
 
 
-    <script src="/main.js"></script>
+    <script src="/main.js">
+    const hamburger = document.getElementById('hamburger');
+    const navUl = document.getElementById('nav-ul');
+
+    hamburger.addEventListener('click', () => {
+    navUl.classList.toggle('show');
+})
+    </script>
 </body>
 </html>
